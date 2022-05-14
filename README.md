@@ -7,5 +7,7 @@ Yararlanılan teknolojiler
   - RabbitMQ
   - AutoMapper
   - SeriLog
+
 Çalışması
+
 Api için gerekli olan tüm baglantı giriş bilgileri "appsettings.json" içindedir. Uygulamayı ayağa kaldırmak için baglantı bilgilerini güncellemeniz yeterlidir.

@@ -36,8 +36,6 @@ namespace Order.Api.Controller
         public async Task<IActionResult> GetProducts()
         {
             _logger.LogInformation("Order api is Logged with SeriLog...");
-            Console.WriteLine("ahh bu dünya");
-            Debug.WriteLine("aah debug");
             var productList = await _productService.GetAllProducts();
             if (productList != null)
             {
